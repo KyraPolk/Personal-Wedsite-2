@@ -1,8 +1,11 @@
 body{
   background-color: rgb(190, 196, 134);
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 h1{
   text-align: center;
+  border-bottom: double 3px rgb(62, 56, 77);
+  padding:30px
 }
 .hobby{
   display:flex;
@@ -12,6 +15,32 @@ div > div{
 }
 @media(max-width:300px){
   div{
-    flex-direction:co
+    flex-direction:column;
   }
+}
+a{
+  background-color: antiquewhite;
+  padding:10px;
+  border-radius: 20px;
+  text-decoration: none;
+  border: double 3px rgb(62, 56, 77);
+  color: black;
+}
+img{
+  background-color: antiquewhite;
+  padding:10px;
+  border: double 3px rgb(62, 56, 77);
+  border-radius: 20px;
+}
+.navbar{
+  padding:0.5cm;
+}
+a:hover{
+background-color: rgb(95, 144, 104);
+}
+.active{
+  color:rgb(62, 56, 77)
+}
+ul > li:before{
+  content: "+";
 }
