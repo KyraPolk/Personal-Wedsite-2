@@ -1,6 +1,17 @@
 body{
-  background-color: hotpink;
+  background-color: rgb(190, 196, 134);
 }
 h1{
   text-align: center;
+}
+.hobby{
+  display:flex;
+}
+div > div{
+  padding:10px
+}
+@media(max-width:300px){
+  div{
+    flex-direction:co
+  }
 }
